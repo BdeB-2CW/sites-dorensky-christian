@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="StyleOnLineStore.css">
+    <script type="text/javascript" src="Scripts/JavaScript.js"></script>
+   
+</head>
+<div class="header">
+      <h1><b><a style= "text-decoration: none; color: white;" href="index.html">COVID-19 | Service Étudiant</a></b></h1>
+</div>
+<h1 style="text-align: center; font-size: 40px;">Nos produits<br></h1>
+<h1 style="text-align: center;">Que recherchez-vous ?<br></h1>
+
+<ul class="navlist"></ul>
+<img src="./Content/image/Laptop.jpg" width="250" height="250"> 
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+<img src="./Content/image/tablettes.jpg" width="250" height="250">
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+<img src="./Content/image/ecouteurs.jpg" width="200" height="200">
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+<img src="./Content/image/Accessoires.jpg" width="200" height="200">
+
+<h3 style="margin-left: 90px;">Ordinateurs                 Tablettes             
+    Écouteurs&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Accessoires pour Ordinateurs<br></h3>
+</ul>
+  
+<body onload ='PopulateCategorie()'>
+    <script>
+        
+    </script>
+    <div class="myDiv">  
+    <p class="MsoNormal">
+        Choisissez la catégorie<o:p>:</o:p></p>
+    <p>
+        <select id="Select1" name="Categorie" , onloadstart="PopulateCategorie()", onchange="ChoisissezProduit()">
+            <option></option>
+        </select></p>
+    <p>
+        <span>Choisissez le produit désiré:</span></p>
+    <select id="Select2" name="Produit" onclick="ChoisissezProduit", onchange ="DisplayInfo()">
+        <option></option>
+    </select>
+    <p>
+        <span>Prix:</span> </p>
+    <p>
+        <input id="Prix" type="text" />  
+    </p>
+     <p>
+        <span>Description:</span> </p>
+    <p>
+        <textarea id="Description" cols="20" name="Description" rows="2"></textarea>  
+    </p>
+   <p>
+        <img id="fotoMb"  src="/Content/image/PhotoProduit.png" style="width: 238px; height: 131px" /></p>
+    <p>
+      </div>     
+     <div class="myDivF">  
+        <span>Entrez la quantité:</span> 
+        <input id="Cantite" type="text" />&nbsp;&nbsp;
+        <input id="command" type="button" value="Continuer" onclick="EnterClientData()"/>
+     </div>
+</body>
+</html>

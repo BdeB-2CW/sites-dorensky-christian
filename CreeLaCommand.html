@@ -1,0 +1,69 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <script type="text/javascript" src="Scripts/JavaScript.js"></script>
+    <title></title>
+    <link rel="stylesheet" href="StyleOnLineStore.css">
+</head>
+<body onload="LoadCreeLaCommand()">
+   
+    <div class="header">
+        <h1><b><a style= "text-decoration: none; color: white;" href="index.html">COVID-19 | Service Étudiant</a></b></h1>
+    </div>
+    <script >
+       
+    </script>
+    <h2 style="text-align: center;">Vérification de votre commande 🛒</h2>
+    <div class="DivBig" >
+     <div class="myDiv">
+        
+       <h3>Détails de produit:</h3>
+        <span>Categories:</span> 
+        <input id="categories" type="text" />
+        <span>Le produit commandé:</span> 
+        <input id="marque" type="text" />
+   
+     <p>
+       
+        <span> Prix:</span>
+    
+        <input id="Prix" type="text"  />
+         <span>Quantité:</span> 
+         <input id="quantite" type="text" />
+         <span>Prix total:</span> 
+         <input id="PrixTotal" type="text" /></p>
+     <p>
+       
+        <span>Description:</span> </p>
+    <p>
+        <textarea id="Description" name="Description" rows="2"></textarea>  
+    </p>
+</div>
+    <div class="myDivF">
+        <h3>Détails de livraison 📦</h3>
+        <p>     
+         <span>Nom: </span><input id="nom" type="text" /> <span>&nbsp; Prenom: </span><input id="prenom" type="text" /></p>
+         <p><span> Adresse Livraison:</span>&nbsp;<input id="adresseLivraison" type="text" /><span> Courriel électronique:</span><input id="emaiAdress" type="text" /></p>
+
+         <p><span>Ville: </span><input id="ville" type="text" />
+         <span>&nbsp;&nbsp; Code Postal: </span><input id="code_postal" type="text" /></p>
+         <p>  <span> Date d'achat: </span><input id="buyDate" type="text" /><span> Date d'expédition: </span><input id="expeditionDate" type="text" />
+         </p>
+    </div>
+    <div class="myDiv">
+        <h3>Mode d'achat et  paiement 💳</h3>
+        <p>   
+                 <span>Choisissez le mode de paiement :</span>
+    <select id="Select2" name="modePaiement" , onchange ="ModePaiement()">
+        <option>Visa </option>
+        <option>Master Card</option>
+        <option>Paypal</option>
+        <option>Courrier</option>
+    </select>
+         <input id="commande" type="button" value="Confirmer la commande" onclick="ConfirmerLaCommande()" />
+        </p>
+    </div>
+        </div>
+</body>
+</html>

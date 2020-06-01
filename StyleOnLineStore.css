@@ -1,0 +1,164 @@
+﻿
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: lightblue;
+    color: black;
+}
+
+.header {
+    padding: 3px;
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(211, 26, 26);
+    font-size: 16px;
+}
+
+.myDiv {
+    border: 2px outset red;
+    background-color: lightblue;
+    text-align: center;
+    align-content: flex-start
+}
+
+.myDivF {
+    border: 2px outset pink;
+    background-color: #75DAFF;
+    text-align: center;
+}
+
+.DivBig {
+    border: 2px outset blue;
+}
+
+#Text1 {
+    width: 181px;
+    margin-left: 4px;
+}
+
+#Description {
+    width: 601px;
+}
+
+#Button1 {
+    width: 157px;
+}
+
+#Cantite {
+    width: 100px;
+}
+
+#marque {
+    width: 137px;
+}
+
+#Prix {
+    margin-left: 0px;
+}
+
+#AdresseLivraison {
+    width: 163px;
+}
+
+#ville {
+    width: 121px;
+    margin-left: 17px;
+}
+
+#command {
+    margin-left: 122px;
+}
+
+#Select2 {
+    width: 169px;
+}
+
+#nom {
+    width: 124px;
+    margin-left: 16px;
+}
+
+#prenom {
+    margin-left: 27px;
+}
+
+#adresseLivraison {
+    margin-left: 0px;
+}
+
+ body {
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        background-color: lightblue;
+        color: black;
+    }
+    .header {
+        padding: 3px;
+        margin:auto;
+        margin-left: auto;
+        margin-right: auto;
+        background-color:rgb(211, 26, 26);
+        font-size: 16px;
+    }
+
+         .myDiv {
+          border: 2px outset red;
+          background-color: lightblue;
+          text-align: center;
+
+         }
+         .myDivF {
+          border: 2px outset pink;
+          background-color: #75DAFF;
+          text-align: center;
+
+         }
+         
+        #UserName {
+            width: 213px;
+        }
+        #Password {
+            width: 170px;
+            margin-left: 41px;
+        }
+        #PasswordR {
+          width: 168px;
+          margin-left: 0px;
+        }
+        #Button1 {
+            width: 100px;
+        }
+  
+        #LogIn {
+            width: 75px;
+            margin-left: 0px;
+        }
+  
+        #AdresseCouriel {
+            width: 169px;
+            margin-left: 0px;
+        }
+
+#Select1 {
+    width: 313px;
+}
+
+#Select2 {
+    width: 313px;
+}
+
+#Text1 {
+    width: 75px;
+    margin-left: 4px;
+}
+
+#Description {
+    width: 524px;
+}
+
+#Button1 {
+    width: 157px;
+}
+
+#Cantite {
+    width: 100px;
+}
